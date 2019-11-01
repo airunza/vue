@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     baseDir: path.join(__dirname, isDev() ? '../dist/' : '../build/'),
-    publicUrl: isDev() ? '/' : './', // 静态资源相对 index.html 的路径
+    publicUrl: isDev() ? './' : './', // 静态资源相对 index.html 的路径
   },
   devServer: {
     port: 1234,
